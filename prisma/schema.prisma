@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  blogs     Blog[]
+}
+
+model Brand {
+  id          String    @id @default(cuid())
+  name        String    @unique // e.g. "Allchek", "RealyTech", "Yasee", "Ultracare"
+  description String?
+  logoUrl     String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  products    Product[]
+}
+
+model Product {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  name             String
+  description_id   String   @db.Text
+  description_en   String   @db.Text
+  specs_id         String?  @db.Text
+  specs_en         String?  @db.Text
+  imageUrl         String
+  imageAlt         String   // Wajib diisi untuk SEO
+  additionalImages String[] // Galeri gambar tambahan (maks 5)
+  brochureUrl      String?  // PDF brosur spesifikasi
+  brandId          String
+  brand            Brand    @relation(fields: [brandId], references: [id])
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Blog {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  title_id        String
+  title_en        String
+  content_id      String   @db.Text
+  content_en      String   @db.Text
+  metaDesc_id     String   @db.Text // Wajib untuk SEO (maks 160 char)
+  metaDesc_en     String   @db.Text // Wajib untuk SEO (maks 160 char)
+  thumbnailUrl    String?
+  thumbnailAlt    String?
+  additionalImages String[] // Galeri foto pendukung artikel (maks 5)
+  authorId        String
+  author          User     @relation(fields: [authorId], references: [id])
+  isPublished     Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

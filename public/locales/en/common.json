@@ -1,0 +1,102 @@
+{
+  "Index": {
+    "title": "Trusted Medical Equipment Procurement Partner",
+    "description": "Official distributor of precision laboratory instruments and global health equipment.",
+    "catalogButton": "View Catalog",
+    "consultButton": "Procurement Consultation",
+    "visualAlt": "High Precision Medical Instrument Visual",
+    "metrics": {
+      "brands": "Global Leading Brands",
+      "original": "Authenticity Guarantee",
+      "base": "Operational Base (West Java)",
+      "support": "24/7 B2B Rapid Support"
+    },
+    "brands": {
+      "title": "Our Official Brands",
+      "subtitle": "Direct partnerships with leading principal manufacturers"
+    },
+    "partners": {
+      "title": "Hospital Clients & Partners",
+      "subtitle": "Trusted by leading healthcare institutions across Indonesia"
+    },
+    "cta": {
+      "title": "Ready to Fulfill Your Medical Needs?",
+      "description": "Our professional team is ready to assist with the procurement of medical equipment for your Hospital, Clinic, or Laboratory with the best offers.",
+      "button": "Contact Sales Team via WhatsApp"
+    }
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact",
+    "contactBtn": "Contact Us",
+    "allProducts": "View All Products"
+  },
+  "Footer": {
+    "description": "Trusted official distributor of medical and laboratory equipment. Providing high-quality products from global brands for healthcare institutions across Indonesia.",
+    "certified": "100% Certified Original Products",
+    "contactTitle": "Contact Us",
+    "address": "Jl. Limbangansari, RT.02/RW.03, Limbangansari, Cianjur District, Cianjur Regency, West Java 43251",
+    "sitemapTitle": "Quick Links",
+    "brandsTitle": "Distributor Brands",
+    "socialTitle": "Official Social Media",
+    "copyright": "PT Samudera Inti Medisindo. All Rights Reserved."
+  },
+  "Kontak": {
+    "title": "Contact Us",
+    "subtitle": "Our expert team is ready to serve the laboratory instruments and medical equipment needs of your institution.",
+    "formTitle": "B2B Requirement Form",
+    "formDesc": "Fill out the form below. Your message will be automatically directed to our sales representative's WhatsApp.",
+    "nameLabel": "Person In Charge (PIC) Name *",
+    "namePlaceholder": "Enter full name",
+    "hospitalLabel": "Institution / Hospital Name *",
+    "hospitalPlaceholder": "Example: RSUD Sayang Cianjur",
+    "productLabel": "Type of Equipment Needed *",
+    "productPlaceholder": "Example: RealyTech Rapid Test",
+    "quantityLabel": "Estimated Quantity",
+    "quantityPlaceholder": "Example: 100 Boxes",
+    "notesLabel": "Additional Notes",
+    "notesPlaceholder": "Write down detailed specifications or special requirements...",
+    "submitBtn": "Send Message via WhatsApp",
+    "contactInfoTitle": "Contact Information",
+    "hqTitle": "Headquarters (Cianjur)",
+    "waTitle": "B2B Inquiry WhatsApp",
+    "hoursTitle": "Operational Hours",
+    "hoursDetail": "Monday - Friday: 08.00 - 17.00 WIB",
+    "mapTitle": "Embedded Google Maps",
+    "mapAddress": "Jl. Limbangansari, Cianjur"
+  },
+  "Tentang": {
+    "title": "About the Company",
+    "subtitle": "PT Samudera Inti Medisindo plays a major role as a main pillar in the healthcare supply chain, ensuring every medical institution gets the best precision laboratory instruments and diagnostic equipment.",
+    "profileTitle": "Profile & Legality",
+    "profileP1": "Headquartered in Cianjur, West Java, PT Samudera Inti Medisindo was established with a strong commitment to improving healthcare standards in Indonesia through the distribution of globally licensed medical and laboratory equipment.",
+    "profileP2": "We ensure that all products we distribute, including renowned brands such as Allchek, RealyTech, Yasee, and Ultracare, have official distribution licenses from the Indonesian Ministry of Health and have passed strict Quality Control.",
+    "visionTitle": "Vision & Mission",
+    "vision": "Vision",
+    "visionDesc": "To be the leading medical and laboratory equipment distributor company in Indonesia recognized for supply chain reliability, product authenticity, and dedication to continuously improving the quality of healthcare facility services.",
+    "mission": "Mission",
+    "mission1": "Providing high-quality and certified medical instruments and laboratory reagents.",
+    "mission2": "Building long-term strategic partnerships with global principal manufacturers.",
+    "mission3": "Providing responsive technical support and after-sales service for every B2B client.",
+    "partnersTitle": "Our Clients & Strategic Partners",
+    "partnersDesc": "We are proud to be a reliable supplier for various healthcare institutions in Indonesia.",
+    "partner1": "Regional Public Hospitals",
+    "partner2": "Private Hospitals",
+    "partner3": "Diagnostic Laboratories",
+    "partner4": "Primary & Main Clinics"
+  },
+  "Blog": {
+    "title": "Latest Articles & News",
+    "subtitle": "Get the latest information on medical technology, healthcare regulations, and laboratory equipment guides from our experts.",
+    "readTime": "3 min read",
+    "readMore": "Read More",
+    "authorPrefix": "By:",
+    "admin": "PT SIM Admin",
+    "emptyTitle": "No Articles Yet",
+    "emptyDesc": "There are no published articles at the moment.",
+    "backToBlog": "Back to Blog"
+  }
+}

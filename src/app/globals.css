@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* PT Samudera Inti Medisindo Color Palette */
+  --color-base-white: #FFFFFF;
+  --color-airy-blue: #E7F1FB;
+  --color-accent-sky: #9EC9F3;
+  --color-primary-blue: #2F78C8;
+  --color-dark-navy: #173A5E;
 }
 
 @media (prefers-color-scheme: dark) {

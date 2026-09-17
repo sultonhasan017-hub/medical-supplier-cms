@@ -1,0 +1,102 @@
+{
+  "Index": {
+    "title": "Mitra Pengadaan Alat Kesehatan Terpercaya",
+    "description": "Distributor resmi instrumen laboratorium presisi dan alat kesehatan global.",
+    "catalogButton": "Lihat Katalog",
+    "consultButton": "Konsultasi Pengadaan",
+    "visualAlt": "Visual Instrumen Medis Presisi Tinggi",
+    "metrics": {
+      "brands": "Merek Global Ternama",
+      "original": "Jaminan Orisinalitas",
+      "base": "Basis Operasional (Jawa Barat)",
+      "support": "Dukungan Respons Cepat B2B"
+    },
+    "brands": {
+      "title": "Merek Resmi Kami",
+      "subtitle": "Kemitraan langsung dengan produsen prinsipal terkemuka"
+    },
+    "partners": {
+      "title": "Klien & Mitra Rumah Sakit",
+      "subtitle": "Dipercaya oleh berbagai institusi kesehatan terkemuka di Indonesia"
+    },
+    "cta": {
+      "title": "Siap Memenuhi Kebutuhan Medis Anda?",
+      "description": "Tim profesional kami siap membantu pengadaan alat kesehatan untuk Rumah Sakit, Klinik, maupun Laboratorium Anda dengan penawaran terbaik.",
+      "button": "Hubungi Tim Penjualan via WhatsApp"
+    }
+  },
+  "Navbar": {
+    "home": "Beranda",
+    "about": "Tentang Perusahaan",
+    "products": "Produk",
+    "blog": "Blog",
+    "contact": "Kontak",
+    "contactBtn": "Hubungi Kami",
+    "allProducts": "Lihat Semua Produk"
+  },
+  "Footer": {
+    "description": "Distributor resmi alat kesehatan dan laboratorium terpercaya. Menyediakan produk berkualitas dari merek global untuk institusi kesehatan di seluruh Indonesia.",
+    "certified": "100% Produk Orisinal Bersertifikat",
+    "contactTitle": "Hubungi Kami",
+    "address": "Jl. Limbangansari, RT.02/RW.03, Limbangansari, Kec. Cianjur, Kabupaten Cianjur, Jawa Barat 43251",
+    "sitemapTitle": "Tautan Cepat",
+    "brandsTitle": "Merek Distributor",
+    "socialTitle": "Media Sosial Resmi",
+    "copyright": "PT Samudera Inti Medisindo. All Rights Reserved."
+  },
+  "Kontak": {
+    "title": "Hubungi Kami",
+    "subtitle": "Tim ahli kami siap melayani kebutuhan instrumen laboratorium dan alat kesehatan institusi Anda.",
+    "formTitle": "Form Kebutuhan B2B",
+    "formDesc": "Lengkapi formulir di bawah ini. Pesan Anda akan secara otomatis diarahkan ke WhatsApp representatif penjualan kami.",
+    "nameLabel": "Nama Penanggung Jawab (PIC) *",
+    "namePlaceholder": "Masukkan nama lengkap",
+    "hospitalLabel": "Nama Instansi / Rumah Sakit *",
+    "hospitalPlaceholder": "Contoh: RSUD Sayang Cianjur",
+    "productLabel": "Jenis Alat yang Dicari *",
+    "productPlaceholder": "Contoh: RealyTech Rapid Test",
+    "quantityLabel": "Estimasi Kuantitas",
+    "quantityPlaceholder": "Contoh: 100 Box",
+    "notesLabel": "Catatan Tambahan",
+    "notesPlaceholder": "Tuliskan spesifikasi detail atau kebutuhan khusus...",
+    "submitBtn": "Kirim Pesan ke WhatsApp",
+    "contactInfoTitle": "Informasi Kontak",
+    "hqTitle": "Kantor Pusat (Cianjur)",
+    "waTitle": "WhatsApp Inquiry B2B",
+    "hoursTitle": "Jam Operasional",
+    "hoursDetail": "Senin - Jumat: 08.00 - 17.00 WIB",
+    "mapTitle": "Google Maps Tersemat",
+    "mapAddress": "Jl. Limbangansari, Cianjur"
+  },
+  "Tentang": {
+    "title": "Tentang Perusahaan",
+    "subtitle": "PT Samudera Inti Medisindo berperan sebagai pilar utama dalam rantai pasok kesehatan, memastikan setiap institusi medis mendapatkan instrumen laboratorium presisi dan alat diagnostik terbaik.",
+    "profileTitle": "Profil & Legalitas",
+    "profileP1": "Berpusat di Cianjur, Jawa Barat, PT Samudera Inti Medisindo didirikan dengan komitmen kuat untuk meningkatkan standar pelayanan kesehatan di Indonesia melalui distribusi alat kesehatan dan instrumen laboratorium yang terlisensi secara global.",
+    "profileP2": "Kami memastikan seluruh produk yang kami distribusikan, termasuk merek ternama seperti Allchek, RealyTech, Yasee, dan Ultracare, memiliki izin edar resmi dari Kementerian Kesehatan Republik Indonesia dan telah melewati uji kendali mutu (Quality Control) yang ketat.",
+    "visionTitle": "Visi & Misi",
+    "vision": "Visi",
+    "visionDesc": "Menjadi perusahaan distributor alat kesehatan dan laboratorium terkemuka di Indonesia yang diakui atas keandalan rantai pasok, keaslian produk, dan dedikasi terhadap peningkatan mutu layanan fasilitas kesehatan secara berkelanjutan.",
+    "mission": "Misi",
+    "mission1": "Menyediakan instrumen medis dan reagen laboratorium berkualitas tinggi dan tersertifikasi.",
+    "mission2": "Membangun kemitraan strategis berjangka panjang dengan produsen prinsipal global.",
+    "mission3": "Memberikan dukungan teknis dan layanan purna jual yang responsif bagi setiap klien B2B.",
+    "partnersTitle": "Klien & Mitra Strategis Kami",
+    "partnersDesc": "Kami bangga menjadi pemasok andalan bagi berbagai institusi kesehatan di Indonesia.",
+    "partner1": "Rumah Sakit Umum Daerah",
+    "partner2": "Rumah Sakit Swasta",
+    "partner3": "Laboratorium Diagnostik",
+    "partner4": "Klinik Pratama & Utama"
+  },
+  "Blog": {
+    "title": "Artikel & Berita Terkini",
+    "subtitle": "Dapatkan informasi terbaru seputar teknologi medis, regulasi kesehatan, dan panduan alat laboratorium dari para pakar kami.",
+    "readTime": "3 min baca",
+    "readMore": "Baca Selengkapnya",
+    "authorPrefix": "Oleh:",
+    "admin": "Admin PT SIM",
+    "emptyTitle": "Belum Ada Artikel",
+    "emptyDesc": "Saat ini belum ada artikel yang dipublikasikan.",
+    "backToBlog": "Kembali ke Blog"
+  }
+}
