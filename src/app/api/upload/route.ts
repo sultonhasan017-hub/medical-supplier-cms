@@ -4,6 +4,7 @@ import { join } from 'path';
 import sharp from 'sharp';
 import { existsSync } from 'fs';
 import { getSession } from '@/lib/auth';
+import { put } from '@vercel/blob';
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
@@ -50,10 +51,6 @@ export async function POST(request: NextRequest) {
 
     // Pisahkan direktori upload berdasarkan tipe file
     const subDir = isImage ? 'images' : 'documents';
-    const uploadDir = join(process.cwd(), `public/uploads/${subDir}`);
-    if (!existsSync(uploadDir)) {
-      await mkdir(uploadDir, { recursive: true });
-    }
 
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
 
@@ -83,6 +80,36 @@ export async function POST(request: NextRequest) {
         .toBuffer();
 
       filename = `img-${uniqueSuffix}.webp`;
+    }
+
+    // ✅ Prioritas 1: Jika BLOB_READ_WRITE_TOKEN tersedia, upload langsung ke Vercel Blob
+    if (process.env.BLOB_READ_WRITE_TOKEN) {
+      const contentType = isImage ? 'image/webp' : 'application/pdf';
+      const blob = await put(`uploads/${subDir}/${filename}`, finalBuffer, {
+        access: 'public',
+        contentType,
+      });
+
+      return NextResponse.json({
+        success: true,
+        url: blob.url,
+      });
+    }
+
+    // ✅ Prioritas 2 (Fallback untuk Lokal Development): Simpan ke folder public/uploads
+    if (process.env.NODE_ENV === 'production') {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'Vercel Blob Storage belum dikonfigurasi. Silakan aktifkan Vercel Blob di tab Storage dashboard Vercel.',
+        },
+        { status: 500 }
+      );
+    }
+
+    const uploadDir = join(process.cwd(), `public/uploads/${subDir}`);
+    if (!existsSync(uploadDir)) {
+      await mkdir(uploadDir, { recursive: true });
     }
 
     const path = join(uploadDir, filename);
