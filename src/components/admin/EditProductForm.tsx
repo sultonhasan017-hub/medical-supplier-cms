@@ -313,7 +313,7 @@ export default function EditProductForm({ product, brands }: EditProductFormProp
             <CardContent className="p-6 space-y-4">
               <div>
                 <label className="text-sm font-semibold text-[var(--color-dark-navy)]">Brosur / Spesifikasi Teknis (PDF)</label>
-                <p className="text-xs text-slate-500 mt-1">Opsional: Dokumen untuk diunduh klien (Maks 5MB)</p>
+                <p className="text-xs text-slate-500 mt-1">Opsional: Dokumen untuk diunduh klien (Maks 4.5MB)</p>
               </div>
 
               {brochureUrl ? (

@@ -6,7 +6,7 @@ import { existsSync } from 'fs';
 import { getSession } from '@/lib/auth';
 import { put } from '@vercel/blob';
 
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+const MAX_FILE_SIZE = 4.5 * 1024 * 1024; // 4.5MB (Batas maksimal serverless request body di Vercel)
 
 // MIME type yang diizinkan (berdasarkan content-type dari client)
 const ALLOWED_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
@@ -27,10 +27,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: 'No file uploaded' }, { status: 400 });
     }
 
-    // ✅ Validasi ukuran file (maks 5MB)
+    // ✅ Validasi ukuran file (maks 4.5MB sesuai limit Vercel)
     if (file.size > MAX_FILE_SIZE) {
       return NextResponse.json(
-        { success: false, error: 'Ukuran file melebihi batas maksimal 5MB' },
+        { success: false, error: 'Ukuran file melebihi batas maksimal 4.5MB' },
         { status: 413 }
       );
     }
